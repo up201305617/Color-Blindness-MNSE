@@ -46,6 +46,26 @@
   text-align: center;
 }
 
+button {
+	width: 200px;
+    height: 50px;
+    position: relative;
+    -webkit-animation-name: example; 
+    -webkit-animation-duration: 4s; 
+    -webkit-animation-iteration-count: infinite; 
+    animation-name: example;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes example {
+	0%   { left:-200px; top:0px;}
+	25%  { left:0; top:0px;}
+   	50%	 { left: 200px; top:0px;}
+	75%	 { left:0px; top:0px;}
+    100% { left:-200px; top:0px;}
+}
+
 body {
   font-family: 'Lora', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   position: relative;
