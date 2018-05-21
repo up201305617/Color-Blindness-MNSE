@@ -49,10 +49,10 @@
               <a class="nav-link js-scroll-trigger" href="#causes">Causes</a>
             </li>
 			<li class="nav-item">
-              <a class="nav-link js-scroll-trigger" href="#management">Management</a>
+              <a class="nav-link js-scroll-trigger" href="#quiz">Quiz</a>
             </li>
 			<li class="nav-item">
-              <a class="nav-link js-scroll-trigger" href="#quiz">Quiz</a>
+              <a class="nav-link js-scroll-trigger" href="#management">Management</a>
             </li>
             <li class="nav-item">
               <a class="nav-link js-scroll-trigger" href="#app">APP</a>
@@ -101,8 +101,8 @@
         <div class="row">
           <div class="col-lg-8 mx-auto">
             <h2>Symptoms</h2>
-				<p>Difficulty distinguishing between colors</p>
-				<p>Inability to see shades or tones of the same color. This happens most with red and green or blue and yellow.</p>
+			<p>Difficulty distinguishing between colors</p>
+			<p>Inability to see shades or tones of the same color. This happens most with red and green or blue and yellow.</p>
           </div>
         </div>
       </div>
@@ -130,6 +130,11 @@
 				<div class="overlay">Protanopia</div>
 			</div>
 			<p>fdhkjgahfghifhgiglkvdnvhhdskjfjkgkj</p>
+			<div class="image_container">
+				<img src="img/tritanopia.jpg" alt="Tritanopia" class="image">
+				<div class="overlay">Tritanopia</div>
+			</div>
+			<p>fdhkjgahfghifhgiglkvdnvhhdskjfjkgkj</p>
           </div>
         </div>
       </div>
@@ -154,6 +159,8 @@
         <div class="row">
           <div class="col-lg-8 mx-auto">
 			<h2 class="text-center">Quiz</h2>
+				<p class = "text-justify">The original Ishihara color blindness test was introduced in early last century and since then, it is by far the most well known color vision deficiency test all around the world.</p> <p class = "text-justify">The original test has 38 plates, in this application only 10 will be used for sample purposes. On each image you have to identify the number that is inscribed on the board. Has three answer options, but only one is correct. At the end click the "Test Results" button to reveal the test result. </p>
+				<p><font color="red">Please note that this test does not replace a medical appointment with a specialist.</font></p>
 				<div class="col-sm-12">
 				<div class="question">
 					<img src="img/plate01.png"></img>
@@ -183,6 +190,48 @@
 						</div>
 					</form>
 				</div>
+				<div class="question">
+					<img src="img/plate03.png"></img>
+					<form>
+						<div class="radio">
+							<label><input type="radio" name="optradio">1</label>
+						</div>
+						<div class="radio">
+							<label><input type="radio" name="optradio" >3</label>
+						</div>
+						<div class="radio">
+							<label><input type="radio" name="optradio" class="correct">2</label>
+						</div>
+					</form>
+				</div>
+				<div class="question">
+					<img src="img/plate04.png"></img>
+					<form>
+						<div class="radio">
+							<label><input type="radio" name="optradio" class="correct">5</label>
+						</div>
+						<div class="radio">
+							<label><input type="radio" name="optradio">6</label>
+						</div>
+						<div class="radio">
+							<label><input type="radio" name="optradio">8</label>
+						</div>
+					</form>
+				</div>
+				<div class="question">
+					<img src="img/plate05.png"></img>
+					<form>
+						<div class="radio">
+							<label><input type="radio" name="optradio">76</label>
+						</div>
+						<div class="radio">
+							<label><input type="radio" name="optradio" class="correct">74</label>
+						</div>
+						<div class="radio">
+							<label><input type="radio" name="optradio">78</label>
+						</div>
+					</form>
+				</div>
 				<br>
 				<div class="col-sm-12 text-center" style="margin-bottom: 20px">
 					<input type="submit" name="submit" value="Test Results" class="btn btn-lg btn-success">
@@ -209,9 +258,9 @@
 	<section id="app" class="content-section text-center">
       <div class="container">
         <div class="row">
-          <div class="col-lg-16 mx-auto">
+          <div class="col-lg-8 mx-auto">
 			<h2>App</h2>
-			<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+			<p>In order to improve this application, a program capable of detecting colors in a video file, image file or the computer webcam stream, was developed. This program was written in the Python programming language with the help of the computer vision library, OpenCV.</p>
 			<video width="500" height="300" controls>
 			</video>
           </div>
